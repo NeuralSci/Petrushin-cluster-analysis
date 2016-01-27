@@ -27,12 +27,13 @@ To find clusters use:
 ```python
 cluster, info = pca.find_clusters(G, criterion = "size", parameter = "max", exclude_inter = False)
 ```
-cluster contains the list of nodes of the found clusters. info contains information about found clusters (original nodes, size, power saving). 
+`cluster` contains the list of nodes of the found clusters. `info` contains information about found clusters (original nodes, size, power saving). 
 
 REFERENCES
 ==========
 
 Please cite the references appropriately in case it is used.
-1.	Alexey Petrushin, Lorenzo Ferrara and Axel Blau. " Optimization of an electro-optical representation of the C. elegans connectome    |through neural network cluster analysis" Neural Networks (IJCNN), 2016 International Joint Conference on. IEEE, 2016. 
+
+1.	Alexey Petrushin, Lorenzo Ferrara and Axel Blau. " Optimization of an electro-optical representation of the C. elegans connectome    through neural network cluster analysis" Neural Networks (IJCNN), 2016 International Joint Conference on. IEEE, 2016. 
 
 

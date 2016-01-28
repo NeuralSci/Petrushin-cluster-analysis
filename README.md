@@ -5,7 +5,7 @@ This package implements the algorithm presented in paper “Optimization of an e
 
 The algorithm divides the network connectome into three clusters. Two of these clusters are not interconnected, which means that there are no edges between them unless a node has no inter-cluster successors. 
 
-Algorithm is capable to handle directed unweighted graphs. The algorithm runs at time O(n2). The core function is `find_clusters` which finds the biggest independent cluster or the best clustering solution for the power optimization. 
+Algorithm is capable to handle directed unweighted graphs. The algorithm runs at time O(n2). The core function is `find_clusters` which finds the biggest independent clusters or the best clustering solution for the power optimization. 
 
 INSTALLATION
 ============
@@ -15,7 +15,7 @@ Copy the `petrushin_cluster_analysis.py` to the same directory of your code.
 USAGE
 =====
 
-In order to use function you will need the python to be installed on your machine. 
+In order to use function you will need Python to be installed on your machine. 
 Import the packages:
 ```python
 import petrushin-cluster-analysis as pca

@@ -5,7 +5,7 @@ This package implements the algorithm presented in paper “Optimization of an e
 
 The algorithm divides the network connectome into three clusters. Two of these clusters are not interconnected. Other two clusters are independent which means that there are no edges between them unless a node has no inter-cluster successors. 
 
-Algorithm is capable to handle directed unwanted graphs. The algorithm runs at time O(n2). The core function is `find_clusters` which finds the biggest independent cluster or the best clustering solution for the power optimization. 
+Algorithm is capable to handle directed unweighted graphs. The algorithm runs at time O(n2). The core function is `find_clusters` which finds the biggest independent cluster or the best clustering solution for the power optimization. 
 
 INSTALLATION
 ============
